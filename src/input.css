@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* de esta forma se puede poner manualmente los estilos
+
+@layer utilities {
+  .shadow-black-card {
+    box-shadow: 0px 7px 25px #c9c7c7;
+  }
+} */
